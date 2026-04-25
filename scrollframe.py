@@ -10,6 +10,10 @@ class ScrollableCheckBoxFrame(customtkinter.CTkScrollableFrame):
         
         for i, item in enumerate(item_list):
             self.add_item(item,all=self.select_allc)
+
+    #sample function for leaning git , delete it , its nt a useful function 
+    def add():
+        print(4+5)
         
 
     def add_item(self, item, all, **kwargs):
